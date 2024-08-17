@@ -45,6 +45,12 @@
     <ClInclude Include="..\..\Source\SizeShift\CharacterShrinkComponent.h">
       <Filter>Source\SizeShift</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\SizeShift\HealthComponent.cpp">
+      <Filter>Source\SizeShift</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SizeShift\HealthComponent.h">
+      <Filter>Source\SizeShift</Filter>
+    </ClInclude>
     <None Include="..\..\Source\SizeShift\SizeShift.Build.cs">
       <Filter>Source\SizeShift</Filter>
     </None>

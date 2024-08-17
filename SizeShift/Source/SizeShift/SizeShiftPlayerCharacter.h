@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "CharacterShrinkComponent.h"
 #include "CharacterEnlargeComponent.h"
+#include "HealthComponent.h"
 #include "SizeShiftPlayerCharacter.generated.h"
 
 UCLASS()
@@ -16,6 +17,9 @@ class SIZESHIFT_API ASizeShiftPlayerCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	ASizeShiftPlayerCharacter();
+
+	UPROPERTY(EditDefaultsOnly)
+	class UHealthComponent* HealthComponent;
 
 protected:
 	// Called when the game starts or when spawned
@@ -37,6 +41,8 @@ public:
 	void Shrink();
 	void Enlarge();
 
+	void ResizeSetHealth(float ValueToSet);
+
 private:
 	void MoveForward(float AxisValue);
 	void MoveRight(float AxisValue);
@@ -45,4 +51,7 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	float RotationRate = 10;
+
+	UPROPERTY(EditAnywhere)
+	float MaxHealth;
 };

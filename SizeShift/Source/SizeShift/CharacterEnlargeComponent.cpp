@@ -2,6 +2,7 @@
 
 
 #include "CharacterEnlargeComponent.h"
+#include "SizeShiftPlayerCharacter.h"
 
 // Sets default values for this component's properties
 UCharacterEnlargeComponent::UCharacterEnlargeComponent()
@@ -24,10 +25,12 @@ void UCharacterEnlargeComponent::EnlargeCharacter()
 	{
 
 		FVector Scale = GetOwner()->GetActorScale3D();
-		float ScaleSize = Scale.Size();
-		if (ScaleSize < EnlargeLimit)
+
+		if (CheckIfVectorReachedThreshold(Scale, EnlargeLimit) == true)
 		{
-			GetOwner()->SetActorScale3D(FVector(GetOwner()->GetActorScale3D().X + 0.25f, GetOwner()->GetActorScale3D().Y + 0.25f, GetOwner()->GetActorScale3D().Z + 0.25f));
+			ASizeShiftPlayerCharacter* PlayerCharacter = Cast<ASizeShiftPlayerCharacter>(GetOwner());
+			PlayerCharacter->ResizeSetHealth(PlayerCharacter->HealthComponent->MaxHealth + 2);
+			PlayerCharacter->SetActorScale3D(FVector(GetOwner()->GetActorScale3D().X + 0.25f, GetOwner()->GetActorScale3D().Y + 0.25f, GetOwner()->GetActorScale3D().Z + 0.25f));
 		}
 	}
 }
@@ -49,5 +52,14 @@ void UCharacterEnlargeComponent::TickComponent(float DeltaTime, ELevelTick TickT
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
+}
+
+bool UCharacterEnlargeComponent::CheckIfVectorReachedThreshold(const FVector& Vector, const FVector& Threshold)
+{
+	return (
+			Vector.X < Threshold.X &&
+			Vector.Y < Threshold.Y && 
+			Vector.Z < Threshold.Z
+		);
 }
 

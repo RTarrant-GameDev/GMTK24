@@ -2,6 +2,7 @@
 
 
 #include "CharacterShrinkComponent.h"
+#include "SizeShiftPlayerCharacter.h"
 
 // Sets default values for this component's properties
 UCharacterShrinkComponent::UCharacterShrinkComponent()
@@ -24,10 +25,12 @@ void UCharacterShrinkComponent::ShrinkCharacter()
 	{
 		
 		FVector Scale = GetOwner()->GetActorScale3D();
-		float ScaleSize = Scale.Size();
-		if (ScaleSize > ShrinkLimit)
+
+		if (CheckIfVectorReachedThreshold(Scale, ShrinkLimit) == true)
 		{
-			GetOwner()->SetActorScale3D(FVector(GetOwner()->GetActorScale3D().X - 0.25f, GetOwner()->GetActorScale3D().Y - 0.25f, GetOwner()->GetActorScale3D().Z - 0.25f));
+			ASizeShiftPlayerCharacter* PlayerCharacter = Cast<ASizeShiftPlayerCharacter>(GetOwner());
+			PlayerCharacter->ResizeSetHealth(PlayerCharacter->HealthComponent->MaxHealth - 2);
+			PlayerCharacter->SetActorScale3D(FVector(GetOwner()->GetActorScale3D().X - 0.25f, GetOwner()->GetActorScale3D().Y - 0.25f, GetOwner()->GetActorScale3D().Z - 0.25f));
 		}
 	}
 }
@@ -51,3 +54,12 @@ void UCharacterShrinkComponent::TickComponent(float DeltaTime, ELevelTick TickTy
 	// ...
 }
 
+
+bool UCharacterShrinkComponent::CheckIfVectorReachedThreshold(const FVector& Vector, const FVector& Threshold)
+{
+	return (
+		Vector.X > Threshold.X &&
+		Vector.Y > Threshold.Y &&
+		Vector.Z > Threshold.Z
+		);
+}

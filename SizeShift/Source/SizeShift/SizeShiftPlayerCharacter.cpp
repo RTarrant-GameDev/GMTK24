@@ -11,6 +11,7 @@ ASizeShiftPlayerCharacter::ASizeShiftPlayerCharacter()
 
 	ShrinkComponent = CreateDefaultSubobject<UCharacterShrinkComponent>(TEXT("ShrinkComponent"));
 	EnlargeComponent = CreateDefaultSubobject<UCharacterEnlargeComponent>(TEXT("EnlargeComponent"));
+	HealthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("HealthComponent"));
 }
 
 // Called when the game starts or when spawned
@@ -18,6 +19,8 @@ void ASizeShiftPlayerCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	HealthComponent->SetMaxHealth(MaxHealth);
+	HealthComponent->CurrHealth = MaxHealth;
 }
 
 // Called every frame
@@ -54,6 +57,15 @@ void ASizeShiftPlayerCharacter::Shrink()
 void ASizeShiftPlayerCharacter::Enlarge()
 {
 	EnlargeComponent->EnlargeCharacter();
+}
+
+void ASizeShiftPlayerCharacter::ResizeSetHealth(float ValueToSet)
+{
+	float HealthPercentage = (HealthComponent->CurrHealth / HealthComponent->MaxHealth);
+
+	HealthComponent->SetMaxHealth(ValueToSet);
+
+	HealthComponent->CurrHealth = (HealthComponent->MaxHealth * HealthPercentage);
 }
 
 void ASizeShiftPlayerCharacter::MoveForward(float AxisValue)

@@ -266,6 +266,10 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\SizeShift\CharacterShrinkComponent.h"/>
+    <ClCompile Include="..\..\Source\SizeShift\HealthComponent.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SizeShift\HealthComponent.h"/>
     <None Include="..\..\Source\SizeShift\SizeShift.Build.cs"/>
     <ClCompile Include="..\..\Source\SizeShift\SizeShift.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
