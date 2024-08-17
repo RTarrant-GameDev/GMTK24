@@ -33,6 +33,12 @@
     <Filter Include="Source\SizeShift">
       <UniqueIdentifier>{F9968986-3FD2-3A9E-B34D-A9D9A7FE50D1}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\SizeShift\CharacterEnlargeComponent.cpp">
+      <Filter>Source\SizeShift</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SizeShift\CharacterEnlargeComponent.h">
+      <Filter>Source\SizeShift</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\SizeShift\CharacterShrinkComponent.cpp">
       <Filter>Source\SizeShift</Filter>
     </ClCompile>
@@ -46,12 +52,6 @@
       <Filter>Source\SizeShift</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SizeShift\SizeShift.h">
-      <Filter>Source\SizeShift</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\SizeShift\SizeShiftGameMode.cpp">
-      <Filter>Source\SizeShift</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\SizeShift\SizeShiftGameMode.h">
       <Filter>Source\SizeShift</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\SizeShift\SizeShiftGameModeBase.cpp">

@@ -258,6 +258,10 @@
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
+    <ClCompile Include="..\..\Source\SizeShift\CharacterEnlargeComponent.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SizeShift\CharacterEnlargeComponent.h"/>
     <ClCompile Include="..\..\Source\SizeShift\CharacterShrinkComponent.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -267,10 +271,6 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\SizeShift\SizeShift.h"/>
-    <ClCompile Include="..\..\Source\SizeShift\SizeShiftGameMode.cpp">
-      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\SizeShift\SizeShiftGameMode.h"/>
     <ClCompile Include="..\..\Source\SizeShift\SizeShiftGameModeBase.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>

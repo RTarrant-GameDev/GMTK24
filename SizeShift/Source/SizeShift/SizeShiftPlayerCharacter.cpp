@@ -10,6 +10,7 @@ ASizeShiftPlayerCharacter::ASizeShiftPlayerCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 
 	ShrinkComponent = CreateDefaultSubobject<UCharacterShrinkComponent>(TEXT("ShrinkComponent"));
+	EnlargeComponent = CreateDefaultSubobject<UCharacterEnlargeComponent>(TEXT("EnlargeComponent"));
 }
 
 // Called when the game starts or when spawned
@@ -42,11 +43,17 @@ void ASizeShiftPlayerCharacter::SetupPlayerInputComponent(UInputComponent* Playe
 	//Actions
 	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction(TEXT("Shrink"), EInputEvent::IE_Pressed, this, &ASizeShiftPlayerCharacter::Shrink);
+	PlayerInputComponent->BindAction(TEXT("Enlarge"), EInputEvent::IE_Pressed, this, &ASizeShiftPlayerCharacter::Enlarge);
 }
 
 void ASizeShiftPlayerCharacter::Shrink()
 {
 	ShrinkComponent->ShrinkCharacter();
+}
+
+void ASizeShiftPlayerCharacter::Enlarge()
+{
+	EnlargeComponent->EnlargeCharacter();
 }
 
 void ASizeShiftPlayerCharacter::MoveForward(float AxisValue)

@@ -13,6 +13,7 @@ void EmptyLinkFunctionForGeneratedCodeSizeShiftPlayerCharacter() {}
 ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 SIZESHIFT_API UClass* Z_Construct_UClass_ASizeShiftPlayerCharacter();
 SIZESHIFT_API UClass* Z_Construct_UClass_ASizeShiftPlayerCharacter_NoRegister();
+SIZESHIFT_API UClass* Z_Construct_UClass_UCharacterEnlargeComponent_NoRegister();
 SIZESHIFT_API UClass* Z_Construct_UClass_UCharacterShrinkComponent_NoRegister();
 UPackage* Z_Construct_UPackage__Script_SizeShift();
 // End Cross Module References
@@ -39,12 +40,18 @@ struct Z_Construct_UClass_ASizeShiftPlayerCharacter_Statics
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "SizeShiftPlayerCharacter.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EnlargeComponent_MetaData[] = {
+		{ "Category", "SizeShiftPlayerCharacter" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "SizeShiftPlayerCharacter.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RotationRate_MetaData[] = {
 		{ "Category", "SizeShiftPlayerCharacter" },
 		{ "ModuleRelativePath", "SizeShiftPlayerCharacter.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_ShrinkComponent;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_EnlargeComponent;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_RotationRate;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
@@ -54,9 +61,11 @@ struct Z_Construct_UClass_ASizeShiftPlayerCharacter_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASizeShiftPlayerCharacter_Statics::NewProp_ShrinkComponent = { "ShrinkComponent", nullptr, (EPropertyFlags)0x0020080000090009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASizeShiftPlayerCharacter, ShrinkComponent), Z_Construct_UClass_UCharacterShrinkComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ShrinkComponent_MetaData), NewProp_ShrinkComponent_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASizeShiftPlayerCharacter_Statics::NewProp_EnlargeComponent = { "EnlargeComponent", nullptr, (EPropertyFlags)0x0020080000090009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASizeShiftPlayerCharacter, EnlargeComponent), Z_Construct_UClass_UCharacterEnlargeComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EnlargeComponent_MetaData), NewProp_EnlargeComponent_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASizeShiftPlayerCharacter_Statics::NewProp_RotationRate = { "RotationRate", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASizeShiftPlayerCharacter, RotationRate), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RotationRate_MetaData), NewProp_RotationRate_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASizeShiftPlayerCharacter_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASizeShiftPlayerCharacter_Statics::NewProp_ShrinkComponent,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASizeShiftPlayerCharacter_Statics::NewProp_EnlargeComponent,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASizeShiftPlayerCharacter_Statics::NewProp_RotationRate,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ASizeShiftPlayerCharacter_Statics::PropPointers) < 2048);
@@ -100,10 +109,10 @@ ASizeShiftPlayerCharacter::~ASizeShiftPlayerCharacter() {}
 struct Z_CompiledInDeferFile_FID_SizeShift_Source_SizeShift_SizeShiftPlayerCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ASizeShiftPlayerCharacter, ASizeShiftPlayerCharacter::StaticClass, TEXT("ASizeShiftPlayerCharacter"), &Z_Registration_Info_UClass_ASizeShiftPlayerCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASizeShiftPlayerCharacter), 2201403752U) },
+		{ Z_Construct_UClass_ASizeShiftPlayerCharacter, ASizeShiftPlayerCharacter::StaticClass, TEXT("ASizeShiftPlayerCharacter"), &Z_Registration_Info_UClass_ASizeShiftPlayerCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASizeShiftPlayerCharacter), 2691512112U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SizeShift_Source_SizeShift_SizeShiftPlayerCharacter_h_2604910270(TEXT("/Script/SizeShift"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SizeShift_Source_SizeShift_SizeShiftPlayerCharacter_h_1727296428(TEXT("/Script/SizeShift"),
 	Z_CompiledInDeferFile_FID_SizeShift_Source_SizeShift_SizeShiftPlayerCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_SizeShift_Source_SizeShift_SizeShiftPlayerCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

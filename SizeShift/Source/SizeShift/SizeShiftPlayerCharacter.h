@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "CharacterShrinkComponent.h"
+#include "CharacterEnlargeComponent.h"
 #include "SizeShiftPlayerCharacter.generated.h"
 
 UCLASS()
@@ -23,6 +24,9 @@ protected:
 	UPROPERTY(EditDefaultsOnly)
 	class UCharacterShrinkComponent* ShrinkComponent;
 
+	UPROPERTY(EditDefaultsOnly)
+	class UCharacterEnlargeComponent* EnlargeComponent;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -31,6 +35,7 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	void Shrink();
+	void Enlarge();
 
 private:
 	void MoveForward(float AxisValue);
