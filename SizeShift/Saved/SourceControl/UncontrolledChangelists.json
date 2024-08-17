@@ -5,7 +5,18 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"W:/Game Dev/GMTK24/SizeShift/Content/StarterContent/Architecture/Floor_400x400.uasset"
+				"W:/Game Dev/GMTK24/SizeShift/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"W:/Game Dev/GMTK24/SizeShift/Content/ThirdPerson/Input/Actions/IA_Shrink.uasset",
+				"W:/Game Dev/GMTK24/SizeShift/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"W:/Game Dev/GMTK24/SizeShift/Content/Blueprints/BP_SizeShiftGameModeBase.uasset",
+				"W:/Game Dev/GMTK24/SizeShift/Content/Blueprints/BP_SizeShiftPlayerCharacter.uasset",
+				"W:/Game Dev/GMTK24/SizeShift/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/B3/P43GWQXTIIEVNDGA3QZ0EN.uasset",
+				"W:/Game Dev/GMTK24/SizeShift/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
+				"W:/Game Dev/GMTK24/SizeShift/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/NC/UUYHDUFQAXTRRN4RVOPIUF.uasset",
+				"W:/Game Dev/GMTK24/SizeShift/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/BW/M7Z5RX3O7568TBJFK5R76I.uasset",
+				"W:/Game Dev/GMTK24/SizeShift/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/VH/ZBAJXM8OD1DY8AA1PV2ZJD.uasset",
+				"W:/Game Dev/GMTK24/SizeShift/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/21/WWYX44RDCCS98492P9K9O3.uasset",
+				"W:/Game Dev/GMTK24/SizeShift/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I.uasset"
 			]
 		}
 	]
