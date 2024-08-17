@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"W:\\Game Dev\\GMTK24\\SizeShift\\Source\\SizeShift\\SizeShift.Build.cs",
+		"W:\\Game Dev\\GMTK24\\SizeShift\\Source\\SizeShift.Target.cs",
+		"W:\\Game Dev\\GMTK24\\SizeShift\\Source\\SizeShiftEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.3"
+}

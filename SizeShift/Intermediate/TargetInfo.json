@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SizeShift",
+			"Path": "..\\Source\\SizeShift.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SizeShiftEditor",
+			"Path": "..\\Source\\SizeShiftEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
