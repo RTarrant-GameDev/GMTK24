@@ -28,5 +28,7 @@ public:
 
 private:
 	UPROPERTY(EditAnywhere)
-	float ShrinkLimit;
+	FVector ShrinkLimit;
+
+	bool CheckIfVectorReachedThreshold(const FVector& Vector, const FVector& Threshold);
 };

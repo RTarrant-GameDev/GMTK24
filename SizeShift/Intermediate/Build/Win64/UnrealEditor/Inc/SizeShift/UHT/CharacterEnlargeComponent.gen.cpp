@@ -10,6 +10,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeCharacterEnlargeComponent() {}
 
 // Begin Cross Module References
+COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 SIZESHIFT_API UClass* Z_Construct_UClass_UCharacterEnlargeComponent();
 SIZESHIFT_API UClass* Z_Construct_UClass_UCharacterEnlargeComponent_NoRegister();
@@ -39,7 +40,7 @@ struct Z_Construct_UClass_UCharacterEnlargeComponent_Statics
 		{ "ModuleRelativePath", "CharacterEnlargeComponent.h" },
 	};
 #endif // WITH_METADATA
-	static const UECodeGen_Private::FFloatPropertyParams NewProp_EnlargeLimit;
+	static const UECodeGen_Private::FStructPropertyParams NewProp_EnlargeLimit;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -47,7 +48,7 @@ struct Z_Construct_UClass_UCharacterEnlargeComponent_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCharacterEnlargeComponent_Statics::NewProp_EnlargeLimit = { "EnlargeLimit", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UCharacterEnlargeComponent, EnlargeLimit), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EnlargeLimit_MetaData), NewProp_EnlargeLimit_MetaData) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UCharacterEnlargeComponent_Statics::NewProp_EnlargeLimit = { "EnlargeLimit", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UCharacterEnlargeComponent, EnlargeLimit), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EnlargeLimit_MetaData), NewProp_EnlargeLimit_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCharacterEnlargeComponent_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterEnlargeComponent_Statics::NewProp_EnlargeLimit,
 };
@@ -92,10 +93,10 @@ UCharacterEnlargeComponent::~UCharacterEnlargeComponent() {}
 struct Z_CompiledInDeferFile_FID_SizeShift_Source_SizeShift_CharacterEnlargeComponent_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UCharacterEnlargeComponent, UCharacterEnlargeComponent::StaticClass, TEXT("UCharacterEnlargeComponent"), &Z_Registration_Info_UClass_UCharacterEnlargeComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCharacterEnlargeComponent), 1794433130U) },
+		{ Z_Construct_UClass_UCharacterEnlargeComponent, UCharacterEnlargeComponent::StaticClass, TEXT("UCharacterEnlargeComponent"), &Z_Registration_Info_UClass_UCharacterEnlargeComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCharacterEnlargeComponent), 303740410U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SizeShift_Source_SizeShift_CharacterEnlargeComponent_h_4089814244(TEXT("/Script/SizeShift"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SizeShift_Source_SizeShift_CharacterEnlargeComponent_h_4278876903(TEXT("/Script/SizeShift"),
 	Z_CompiledInDeferFile_FID_SizeShift_Source_SizeShift_CharacterEnlargeComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_SizeShift_Source_SizeShift_CharacterEnlargeComponent_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

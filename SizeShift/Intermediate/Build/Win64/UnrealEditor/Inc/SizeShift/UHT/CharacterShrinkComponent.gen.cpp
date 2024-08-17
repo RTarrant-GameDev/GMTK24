@@ -10,6 +10,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeCharacterShrinkComponent() {}
 
 // Begin Cross Module References
+COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 SIZESHIFT_API UClass* Z_Construct_UClass_UCharacterShrinkComponent();
 SIZESHIFT_API UClass* Z_Construct_UClass_UCharacterShrinkComponent_NoRegister();
@@ -39,7 +40,7 @@ struct Z_Construct_UClass_UCharacterShrinkComponent_Statics
 		{ "ModuleRelativePath", "CharacterShrinkComponent.h" },
 	};
 #endif // WITH_METADATA
-	static const UECodeGen_Private::FFloatPropertyParams NewProp_ShrinkLimit;
+	static const UECodeGen_Private::FStructPropertyParams NewProp_ShrinkLimit;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -47,7 +48,7 @@ struct Z_Construct_UClass_UCharacterShrinkComponent_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCharacterShrinkComponent_Statics::NewProp_ShrinkLimit = { "ShrinkLimit", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UCharacterShrinkComponent, ShrinkLimit), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ShrinkLimit_MetaData), NewProp_ShrinkLimit_MetaData) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UCharacterShrinkComponent_Statics::NewProp_ShrinkLimit = { "ShrinkLimit", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UCharacterShrinkComponent, ShrinkLimit), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ShrinkLimit_MetaData), NewProp_ShrinkLimit_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCharacterShrinkComponent_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterShrinkComponent_Statics::NewProp_ShrinkLimit,
 };
@@ -92,10 +93,10 @@ UCharacterShrinkComponent::~UCharacterShrinkComponent() {}
 struct Z_CompiledInDeferFile_FID_SizeShift_Source_SizeShift_CharacterShrinkComponent_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UCharacterShrinkComponent, UCharacterShrinkComponent::StaticClass, TEXT("UCharacterShrinkComponent"), &Z_Registration_Info_UClass_UCharacterShrinkComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCharacterShrinkComponent), 2444371484U) },
+		{ Z_Construct_UClass_UCharacterShrinkComponent, UCharacterShrinkComponent::StaticClass, TEXT("UCharacterShrinkComponent"), &Z_Registration_Info_UClass_UCharacterShrinkComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCharacterShrinkComponent), 3116909622U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SizeShift_Source_SizeShift_CharacterShrinkComponent_h_2297487301(TEXT("/Script/SizeShift"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SizeShift_Source_SizeShift_CharacterShrinkComponent_h_181219230(TEXT("/Script/SizeShift"),
 	Z_CompiledInDeferFile_FID_SizeShift_Source_SizeShift_CharacterShrinkComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_SizeShift_Source_SizeShift_CharacterShrinkComponent_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
