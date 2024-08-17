@@ -31,6 +31,7 @@ void ASizeShiftPlayerCharacter::SetupPlayerInputComponent(UInputComponent* Playe
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	//Axis
 	PlayerInputComponent->BindAxis(TEXT("MoveForward"), this, &ASizeShiftPlayerCharacter::MoveForward);
 	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis(TEXT("MoveRight"), this, &ASizeShiftPlayerCharacter::MoveRight);
@@ -38,6 +39,8 @@ void ASizeShiftPlayerCharacter::SetupPlayerInputComponent(UInputComponent* Playe
 	PlayerInputComponent->BindAxis(TEXT("LookUpRate"), this, &ASizeShiftPlayerCharacter::LookUpRate);
 	PlayerInputComponent->BindAxis(TEXT("LookRightRate"), this, &ASizeShiftPlayerCharacter::LookRightRate);
 
+	//Actions
+	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction(TEXT("Shrink"), EInputEvent::IE_Pressed, this, &ASizeShiftPlayerCharacter::Shrink);
 }
 
