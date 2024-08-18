@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "w:\\game dev\\gmtk24\\sizeshift\\source\\sizeshift\\healthcomponent.cpp",
+        "ProvidedModule": "",
+        "PCH": "w:\\game dev\\gmtk24\\sizeshift\\intermediate\\build\\win64\\x64\\sizeshifteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "w:\\game dev\\gmtk24\\sizeshift\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\sizeshift\\definitions.sizeshift.h",
+            "w:\\game dev\\gmtk24\\sizeshift\\source\\sizeshift\\healthcomponent.h",
+            "w:\\game dev\\gmtk24\\sizeshift\\intermediate\\build\\win64\\unrealeditor\\inc\\sizeshift\\uht\\healthcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
