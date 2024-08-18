@@ -3566,3 +3566,329 @@ Script Stack (0 frames) :
 [2024.08.18-15.41.00:328][830]LogContentValidation: Display: Validating asset /Game/Level1.Level1
 [2024.08.18-15.41.00:329][830]AssetCheck: /Game/Level1 Validating asset
 [2024.08.18-15.55.52:595][850]LogDerivedDataCache: C:/Users/rtarr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.070 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 495 files in 917 folders with total size 20 MiB.
+[2024.08.18-16.00.30:739][351]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2024.08.18-16.00.30:751][351]LogContentBrowser: Creating deferred item: NewWorld
+[2024.08.18-16.00.30:762][352]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2024.08.18-16.00.32:769][516]LogContentBrowser: Attempting asset rename: NewWorld -> Level2
+[2024.08.18-16.00.32:781][516]LogContentBrowser: End creating deferred item NewWorld
+[2024.08.18-16.00.34:390][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.08.18-16.00.36:201][642]LogSlate: Window 'Save Content' being destroyed
+[2024.08.18-16.00.36:216][642]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.18-16.00.36:274][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level2" FILE="W:/Game Dev/GMTK24/SizeShift/Content/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.18-16.00.36:286][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.08.18-16.00.36:289][642]LogSavePackage: Moving output files for package: /Game/Level2
+[2024.08.18-16.00.36:289][642]LogSavePackage: Moving 'W:/Game Dev/GMTK24/SizeShift/Saved/Level2423F598D4D6912CD3D7E208616BBBD50.tmp' to 'W:/Game Dev/GMTK24/SizeShift/Content/Level2.umap'
+[2024.08.18-16.00.36:297][642]LogFileHelpers: Saving map 'Level2' took 0.023
+[2024.08.18-16.00.36:297][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/rtarr/Box_56C5663E] ([1] browsable assets)...
+[2024.08.18-16.00.36:297][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/rtarr/Box_56C5663E]
+[2024.08.18-16.00.36:297][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_GENERATED/rtarr/Box_56C5663E" FILE="W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/Box_56C5663E.uasset" SILENT=true
+[2024.08.18-16.00.36:299][642]LogSavePackage: Moving output files for package: /Game/_GENERATED/rtarr/Box_56C5663E
+[2024.08.18-16.00.36:299][642]LogSavePackage: Moving 'W:/Game Dev/GMTK24/SizeShift/Saved/Box_56C5663E1EEF7C3141F73A036FBD05AAB0A2356F.tmp' to 'W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/Box_56C5663E.uasset'
+[2024.08.18-16.00.36:300][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/rtarr/Box_FB15871D] ([1] browsable assets)...
+[2024.08.18-16.00.36:300][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/rtarr/Box_FB15871D]
+[2024.08.18-16.00.36:300][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_GENERATED/rtarr/Box_FB15871D" FILE="W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/Box_FB15871D.uasset" SILENT=true
+[2024.08.18-16.00.36:301][642]LogSavePackage: Moving output files for package: /Game/_GENERATED/rtarr/Box_FB15871D
+[2024.08.18-16.00.36:301][642]LogSavePackage: Moving 'W:/Game Dev/GMTK24/SizeShift/Saved/Box_FB15871D4B7D4F594F7ADFE96CA7729464303657.tmp' to 'W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/Box_FB15871D.uasset'
+[2024.08.18-16.00.36:302][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/rtarr/CubeGridToolOutput_9E2F3A6B] ([1] browsable assets)...
+[2024.08.18-16.00.36:302][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/rtarr/CubeGridToolOutput_9E2F3A6B]
+[2024.08.18-16.00.36:302][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_GENERATED/rtarr/CubeGridToolOutput_9E2F3A6B" FILE="W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/CubeGridToolOutput_9E2F3A6B.uasset" SILENT=true
+[2024.08.18-16.00.36:304][642]LogSavePackage: Moving output files for package: /Game/_GENERATED/rtarr/CubeGridToolOutput_9E2F3A6B
+[2024.08.18-16.00.36:304][642]LogSavePackage: Moving 'W:/Game Dev/GMTK24/SizeShift/Saved/CubeGridToolOutput_9E2F3A6BBBF402C04D0B05FB2A499B99313E4533.tmp' to 'W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/CubeGridToolOutput_9E2F3A6B.uasset'
+[2024.08.18-16.00.36:305][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/rtarr/CubeGridToolOutput_ABA99574] ([1] browsable assets)...
+[2024.08.18-16.00.36:305][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/rtarr/CubeGridToolOutput_ABA99574]
+[2024.08.18-16.00.36:305][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_GENERATED/rtarr/CubeGridToolOutput_ABA99574" FILE="W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/CubeGridToolOutput_ABA99574.uasset" SILENT=true
+[2024.08.18-16.00.36:306][642]LogSavePackage: Moving output files for package: /Game/_GENERATED/rtarr/CubeGridToolOutput_ABA99574
+[2024.08.18-16.00.36:306][642]LogSavePackage: Moving 'W:/Game Dev/GMTK24/SizeShift/Saved/CubeGridToolOutput_ABA9957410761FD74036FBCCF705FAA123F28C07.tmp' to 'W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/CubeGridToolOutput_ABA99574.uasset'
+[2024.08.18-16.00.36:307][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/rtarr/CubeGridToolOutput_F6C25885] ([1] browsable assets)...
+[2024.08.18-16.00.36:307][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/rtarr/CubeGridToolOutput_F6C25885]
+[2024.08.18-16.00.36:307][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_GENERATED/rtarr/CubeGridToolOutput_F6C25885" FILE="W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/CubeGridToolOutput_F6C25885.uasset" SILENT=true
+[2024.08.18-16.00.36:309][642]LogSavePackage: Moving output files for package: /Game/_GENERATED/rtarr/CubeGridToolOutput_F6C25885
+[2024.08.18-16.00.36:309][642]LogSavePackage: Moving 'W:/Game Dev/GMTK24/SizeShift/Saved/CubeGridToolOutput_F6C2588533C0F54A49BF0B38B1EBC8B3608F7058.tmp' to 'W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/CubeGridToolOutput_F6C25885.uasset'
+[2024.08.18-16.00.36:310][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/rtarr/Extrude_2D0E33AC] ([1] browsable assets)...
+[2024.08.18-16.00.36:310][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/rtarr/Extrude_2D0E33AC]
+[2024.08.18-16.00.36:310][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_GENERATED/rtarr/Extrude_2D0E33AC" FILE="W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/Extrude_2D0E33AC.uasset" SILENT=true
+[2024.08.18-16.00.36:311][642]LogSavePackage: Moving output files for package: /Game/_GENERATED/rtarr/Extrude_2D0E33AC
+[2024.08.18-16.00.36:311][642]LogSavePackage: Moving 'W:/Game Dev/GMTK24/SizeShift/Saved/Extrude_2D0E33ACDB071ADA4B285D601ADD728D8269308E.tmp' to 'W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/Extrude_2D0E33AC.uasset'
+[2024.08.18-16.00.36:312][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/rtarr/Extrude_3EDDCB16] ([1] browsable assets)...
+[2024.08.18-16.00.36:312][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/rtarr/Extrude_3EDDCB16]
+[2024.08.18-16.00.36:312][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_GENERATED/rtarr/Extrude_3EDDCB16" FILE="W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/Extrude_3EDDCB16.uasset" SILENT=true
+[2024.08.18-16.00.36:314][642]LogSavePackage: Moving output files for package: /Game/_GENERATED/rtarr/Extrude_3EDDCB16
+[2024.08.18-16.00.36:314][642]LogSavePackage: Moving 'W:/Game Dev/GMTK24/SizeShift/Saved/Extrude_3EDDCB16CFACEA8F47F4E043F6737B8C52300F7D.tmp' to 'W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/Extrude_3EDDCB16.uasset'
+[2024.08.18-16.00.36:315][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/rtarr/Extrude_D0781582] ([1] browsable assets)...
+[2024.08.18-16.00.36:315][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/rtarr/Extrude_D0781582]
+[2024.08.18-16.00.36:315][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_GENERATED/rtarr/Extrude_D0781582" FILE="W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/Extrude_D0781582.uasset" SILENT=true
+[2024.08.18-16.00.36:316][642]LogSavePackage: Moving output files for package: /Game/_GENERATED/rtarr/Extrude_D0781582
+[2024.08.18-16.00.36:316][642]LogSavePackage: Moving 'W:/Game Dev/GMTK24/SizeShift/Saved/Extrude_D0781582616753E147DEE409BF2FE7BD36E014D2.tmp' to 'W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/Extrude_D0781582.uasset'
+[2024.08.18-16.00.36:317][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/rtarr/Extrude_D50C249A] ([1] browsable assets)...
+[2024.08.18-16.00.36:317][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/rtarr/Extrude_D50C249A]
+[2024.08.18-16.00.36:317][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_GENERATED/rtarr/Extrude_D50C249A" FILE="W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/Extrude_D50C249A.uasset" SILENT=true
+[2024.08.18-16.00.36:319][642]LogSavePackage: Moving output files for package: /Game/_GENERATED/rtarr/Extrude_D50C249A
+[2024.08.18-16.00.36:319][642]LogSavePackage: Moving 'W:/Game Dev/GMTK24/SizeShift/Saved/Extrude_D50C249A428F87954AE6CA3C55DF0BAE5F80D32B.tmp' to 'W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/Extrude_D50C249A.uasset'
+[2024.08.18-16.00.36:319][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/rtarr/Path_C8F720E6] ([1] browsable assets)...
+[2024.08.18-16.00.36:319][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/rtarr/Path_C8F720E6]
+[2024.08.18-16.00.36:320][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_GENERATED/rtarr/Path_C8F720E6" FILE="W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/Path_C8F720E6.uasset" SILENT=true
+[2024.08.18-16.00.36:321][642]LogSavePackage: Moving output files for package: /Game/_GENERATED/rtarr/Path_C8F720E6
+[2024.08.18-16.00.36:321][642]LogSavePackage: Moving 'W:/Game Dev/GMTK24/SizeShift/Saved/Path_C8F720E6D70E5746484D26E5FF2FEFB73A2B168A.tmp' to 'W:/Game Dev/GMTK24/SizeShift/Content/_GENERATED/rtarr/Path_C8F720E6.uasset'
+[2024.08.18-16.00.36:407][642]LogFileHelpers: InternalPromptForCheckoutAndSave took 191.502 ms (total: 7.05 sec)
+[2024.08.18-16.00.36:407][642]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level2.Level2
+[2024.08.18-16.00.36:408][642]Cmd: MAP LOAD FILE="W:/Game Dev/GMTK24/SizeShift/Content/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.08.18-16.00.36:479][642]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.08.18-16.00.36:479][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.18-16.00.36:479][642]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.08.18-16.00.36:479][642]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.08.18-16.00.36:484][642]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.18-16.00.36:492][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.08.18-16.00.36:497][642]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2024.08.18-16.00.36:497][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.18-16.00.36:502][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.08.18-16.00.36:507][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.08.18-16.00.36:510][642]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level2'.
+[2024.08.18-16.00.36:510][642]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.08.18-16.00.36:526][642]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.08.18-16.00.36:532][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.08.18-16.00.36:536][642]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.08.18-16.00.36:536][642]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.068ms to complete.
+[2024.08.18-16.00.36:890][642]LogContentValidation: Display: Starting to validate 11 assets
+[2024.08.18-16.00.36:890][642]LogContentValidation: Enabled validators:
+[2024.08.18-16.00.36:890][642]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.08.18-16.00.36:890][642]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.08.18-16.00.36:890][642]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.08.18-16.00.36:890][642]LogContentValidation: Display: Validating asset /Game/Level2.Level2
+[2024.08.18-16.00.36:890][642]AssetCheck: /Game/Level2 Validating asset
+[2024.08.18-16.00.36:890][642]LogContentValidation: Display: Validating asset /Game/_GENERATED/rtarr/Box_56C5663E.Box_56C5663E
+[2024.08.18-16.00.36:890][642]AssetCheck: /Game/_GENERATED/rtarr/Box_56C5663E Validating asset
+[2024.08.18-16.00.36:890][642]LogContentValidation: Display: Validating asset /Game/_GENERATED/rtarr/Box_FB15871D.Box_FB15871D
+[2024.08.18-16.00.36:890][642]AssetCheck: /Game/_GENERATED/rtarr/Box_FB15871D Validating asset
+[2024.08.18-16.00.36:890][642]LogContentValidation: Display: Validating asset /Game/_GENERATED/rtarr/CubeGridToolOutput_9E2F3A6B.CubeGridToolOutput_9E2F3A6B
+[2024.08.18-16.00.36:890][642]AssetCheck: /Game/_GENERATED/rtarr/CubeGridToolOutput_9E2F3A6B Validating asset
+[2024.08.18-16.00.36:890][642]LogContentValidation: Display: Validating asset /Game/_GENERATED/rtarr/CubeGridToolOutput_ABA99574.CubeGridToolOutput_ABA99574
+[2024.08.18-16.00.36:890][642]AssetCheck: /Game/_GENERATED/rtarr/CubeGridToolOutput_ABA99574 Validating asset
+[2024.08.18-16.00.36:890][642]LogContentValidation: Display: Validating asset /Game/_GENERATED/rtarr/CubeGridToolOutput_F6C25885.CubeGridToolOutput_F6C25885
+[2024.08.18-16.00.36:890][642]AssetCheck: /Game/_GENERATED/rtarr/CubeGridToolOutput_F6C25885 Validating asset
+[2024.08.18-16.00.36:891][642]LogContentValidation: Display: Validating asset /Game/_GENERATED/rtarr/Extrude_2D0E33AC.Extrude_2D0E33AC
+[2024.08.18-16.00.36:891][642]AssetCheck: /Game/_GENERATED/rtarr/Extrude_2D0E33AC Validating asset
+[2024.08.18-16.00.36:891][642]LogContentValidation: Display: Validating asset /Game/_GENERATED/rtarr/Extrude_3EDDCB16.Extrude_3EDDCB16
+[2024.08.18-16.00.36:891][642]AssetCheck: /Game/_GENERATED/rtarr/Extrude_3EDDCB16 Validating asset
+[2024.08.18-16.00.36:891][642]LogContentValidation: Display: Validating asset /Game/_GENERATED/rtarr/Extrude_D0781582.Extrude_D0781582
+[2024.08.18-16.00.36:891][642]AssetCheck: /Game/_GENERATED/rtarr/Extrude_D0781582 Validating asset
+[2024.08.18-16.00.36:891][642]LogContentValidation: Display: Validating asset /Game/_GENERATED/rtarr/Extrude_D50C249A.Extrude_D50C249A
+[2024.08.18-16.00.36:891][642]AssetCheck: /Game/_GENERATED/rtarr/Extrude_D50C249A Validating asset
+[2024.08.18-16.00.36:891][642]LogContentValidation: Display: Validating asset /Game/_GENERATED/rtarr/Path_C8F720E6.Path_C8F720E6
+[2024.08.18-16.00.36:891][642]AssetCheck: /Game/_GENERATED/rtarr/Path_C8F720E6 Validating asset
+[2024.08.18-16.01.00:217][844]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.08.18-16.01.00:236][844]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level1.Level1
+[2024.08.18-16.01.00:236][844]Cmd: MAP LOAD FILE="W:/Game Dev/GMTK24/SizeShift/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.08.18-16.01.00:262][844]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2024.08.18-16.01.00:262][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.18-16.01.00:262][844]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.08.18-16.01.00:262][844]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.08.18-16.01.00:267][844]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.18-16.01.00:269][844]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.08.18-16.01.00:271][844]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.08.18-16.01.00:271][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.18-16.01.00:283][844]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.08.18-16.01.00:289][844]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.08.18-16.01.00:304][844]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level1'.
+[2024.08.18-16.01.00:304][844]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.08.18-16.01.00:397][844]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.08.18-16.01.00:405][844]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.08.18-16.01.00:409][844]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.08.18-16.01.00:409][844]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.102ms to complete.
+[2024.08.18-16.01.06:202][141]Cmd: EDIT COPY
+[2024.08.18-16.01.08:117][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.08.18-16.01.08:125][307]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level2.Level2
+[2024.08.18-16.01.08:125][307]Cmd: MAP LOAD FILE="W:/Game Dev/GMTK24/SizeShift/Content/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.08.18-16.01.08:182][307]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.08.18-16.01.08:182][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.18-16.01.08:182][307]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.08.18-16.01.08:183][307]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.08.18-16.01.08:187][307]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.18-16.01.08:189][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.08.18-16.01.08:190][307]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2024.08.18-16.01.08:190][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.18-16.01.08:196][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.08.18-16.01.08:201][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.08.18-16.01.08:203][307]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level2'.
+[2024.08.18-16.01.08:203][307]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.08.18-16.01.08:275][307]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.08.18-16.01.08:282][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.08.18-16.01.08:286][307]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.08.18-16.01.08:286][307]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.072ms to complete.
+[2024.08.18-16.01.09:382][382]Cmd: EDIT PASTE
+[2024.08.18-16.01.10:764][542]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.08.18-16.01.10:780][542]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level1.Level1
+[2024.08.18-16.01.10:781][542]Cmd: MAP LOAD FILE="W:/Game Dev/GMTK24/SizeShift/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.08.18-16.01.10:832][542]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2024.08.18-16.01.10:832][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.18-16.01.10:832][542]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.08.18-16.01.10:832][542]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.08.18-16.01.10:837][542]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.18-16.01.10:838][542]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.08.18-16.01.10:840][542]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.08.18-16.01.10:840][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.18-16.01.10:846][542]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.08.18-16.01.10:851][542]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.08.18-16.01.10:928][542]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level1'.
+[2024.08.18-16.01.10:929][542]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.08.18-16.01.10:944][542]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.08.18-16.01.10:951][542]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.08.18-16.01.10:954][542]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.08.18-16.01.10:954][542]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.073ms to complete.
+[2024.08.18-16.01.15:213][867]Cmd: EDIT COPY
+[2024.08.18-16.01.16:528][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.08.18-16.01.16:536][979]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level2.Level2
+[2024.08.18-16.01.16:536][979]Cmd: MAP LOAD FILE="W:/Game Dev/GMTK24/SizeShift/Content/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.08.18-16.01.16:564][979]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.08.18-16.01.16:564][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.18-16.01.16:564][979]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.08.18-16.01.16:564][979]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.08.18-16.01.16:568][979]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.18-16.01.16:570][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.08.18-16.01.16:572][979]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2024.08.18-16.01.16:572][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.18-16.01.16:578][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.08.18-16.01.16:583][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.08.18-16.01.16:585][979]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level2'.
+[2024.08.18-16.01.16:586][979]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.08.18-16.01.16:600][979]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.08.18-16.01.16:606][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.08.18-16.01.16:610][979]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.08.18-16.01.16:610][979]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.076ms to complete.
+[2024.08.18-16.01.18:541][154]Cmd: EDIT PASTE
+[2024.08.18-16.01.21:635][432]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.18-16.01.21:709][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level2" FILE="W:/Game Dev/GMTK24/SizeShift/Content/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.18-16.01.21:738][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.08.18-16.01.21:745][432]LogSavePackage: Moving output files for package: /Game/Level2
+[2024.08.18-16.01.21:745][432]LogSavePackage: Moving 'W:/Game Dev/GMTK24/SizeShift/Saved/Level2C6BAB30F4E4AB5E8BCC079B88B63EACE.tmp' to 'W:/Game Dev/GMTK24/SizeShift/Content/Level2.umap'
+[2024.08.18-16.01.21:753][432]LogFileHelpers: Saving map 'Level2' took 0.044
+[2024.08.18-16.01.22:086][432]LogFileHelpers: InternalPromptForCheckoutAndSave took 451.479 ms (total: 7.50 sec)
+[2024.08.18-16.01.22:160][432]LogContentValidation: Display: Starting to validate 1 assets
+[2024.08.18-16.01.22:160][432]LogContentValidation: Enabled validators:
+[2024.08.18-16.01.22:160][432]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.08.18-16.01.22:160][432]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.08.18-16.01.22:160][432]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.08.18-16.01.22:160][432]LogContentValidation: Display: Validating asset /Game/Level2.Level2
+[2024.08.18-16.01.22:160][432]AssetCheck: /Game/Level2 Validating asset
+[2024.08.18-16.01.29:925][135]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2024.08.18-16.02.05:912][ 97]Cmd: EDIT COPY
+[2024.08.18-16.02.06:944][183]Cmd: EDIT COPY
+[2024.08.18-16.02.07:531][232]Cmd: EDIT PASTE
+[2024.08.18-16.02.29:889][  5]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2024.08.18-16.03.00:978][375]Cmd: EDIT COPY
+[2024.08.18-16.03.01:291][399]Cmd: EDIT PASTE
+[2024.08.18-16.04.45:313][117]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2024.08.18-16.04.57:974][ 88]Cmd: EDIT COPY
+[2024.08.18-16.04.58:445][127]Cmd: EDIT PASTE
+[2024.08.18-16.05.10:840][ 60]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2024.08.18-16.06.54:531][532]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.18-16.06.54:607][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level2" FILE="W:/Game Dev/GMTK24/SizeShift/Content/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.18-16.06.54:646][532]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.08.18-16.06.54:671][532]LogSavePackage: Moving output files for package: /Game/Level2
+[2024.08.18-16.06.54:671][532]LogSavePackage: Moving 'W:/Game Dev/GMTK24/SizeShift/Saved/Level2900275864C41B1B57D276786739BA6AB.tmp' to 'W:/Game Dev/GMTK24/SizeShift/Content/Level2.umap'
+[2024.08.18-16.06.54:680][532]LogFileHelpers: Saving map 'Level2' took 0.073
+[2024.08.18-16.06.54:700][532]LogFileHelpers: InternalPromptForCheckoutAndSave took 168.926 ms (total: 7.67 sec)
+[2024.08.18-16.06.54:755][532]LogContentValidation: Display: Starting to validate 1 assets
+[2024.08.18-16.06.54:756][532]LogContentValidation: Enabled validators:
+[2024.08.18-16.06.54:756][532]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.08.18-16.06.54:756][532]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.08.18-16.06.54:756][532]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.08.18-16.06.54:756][532]LogContentValidation: Display: Validating asset /Game/Level2.Level2
+[2024.08.18-16.06.54:756][532]AssetCheck: /Game/Level2 Validating asset
+[2024.08.18-16.07.06:163][375]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2024.08.18-16.07.25:273][856]Cmd: EDIT COPY
+[2024.08.18-16.07.26:579][957]Cmd: EDIT PASTE
+[2024.08.18-16.07.59:195][230]Cmd: EDIT COPY
+[2024.08.18-16.08.00:006][296]Cmd: EDIT PASTE
+[2024.08.18-16.08.38:355][107]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2024.08.18-16.09.30:508][934]Cmd: EDIT COPY
+[2024.08.18-16.09.30:945][970]Cmd: EDIT PASTE
+[2024.08.18-16.10.06:398][634]Cmd: EDIT COPY
+[2024.08.18-16.10.06:686][656]Cmd: EDIT PASTE
+[2024.08.18-16.10.47:708][747]Cmd: EDIT COPY
+[2024.08.18-16.10.48:043][774]Cmd: EDIT PASTE
+[2024.08.18-16.11.22:051][340]Cmd: EDIT COPY
+[2024.08.18-16.11.22:763][397]Cmd: EDIT PASTE
+[2024.08.18-16.12.00:552][253]Cmd: TRANSACTION UNDO
+[2024.08.18-16.12.00:552][253]LogEditorTransaction: Undo Move Elements
+[2024.08.18-16.12.00:792][254]Cmd: TRANSACTION UNDO
+[2024.08.18-16.12.00:792][254]LogEditorTransaction: Undo Rotate Elements
+[2024.08.18-16.12.00:930][254]Cmd: TRANSACTION UNDO
+[2024.08.18-16.12.00:930][254]LogEditorTransaction: Undo Rotate Elements
+[2024.08.18-16.12.01:059][254]Cmd: TRANSACTION UNDO
+[2024.08.18-16.12.01:059][254]LogEditorTransaction: Undo Rotate Elements
+[2024.08.18-16.12.01:293][255]Cmd: TRANSACTION UNDO
+[2024.08.18-16.12.01:293][255]LogEditorTransaction: Undo Rotate Elements
+[2024.08.18-16.12.01:425][255]Cmd: TRANSACTION UNDO
+[2024.08.18-16.12.01:425][255]LogEditorTransaction: Undo Rotate Elements
+[2024.08.18-16.12.01:555][255]Cmd: TRANSACTION UNDO
+[2024.08.18-16.12.01:555][255]LogEditorTransaction: Undo Move Elements
+[2024.08.18-16.12.02:570][305]Cmd: TRANSACTION UNDO
+[2024.08.18-16.12.02:570][305]LogEditorTransaction: Undo Move Elements
+[2024.08.18-16.12.03:423][362]Cmd: TRANSACTION UNDO
+[2024.08.18-16.12.03:424][362]LogEditorTransaction: Undo Move Elements
+[2024.08.18-16.12.03:771][378]Cmd: TRANSACTION UNDO
+[2024.08.18-16.12.03:771][378]LogEditorTransaction: Undo Rotate Elements
+[2024.08.18-16.12.04:415][418]Cmd: TRANSACTION UNDO
+[2024.08.18-16.12.04:415][418]LogEditorTransaction: Undo Rotate Elements
+[2024.08.18-16.14.24:075][568]Cmd: EDIT COPY
+[2024.08.18-16.14.26:934][771]Cmd: EDIT COPY
+[2024.08.18-16.14.28:296][877]Cmd: EDIT PASTE
+[2024.08.18-16.15.01:417][259]Cmd: TRANSACTION UNDO
+[2024.08.18-16.15.01:417][259]LogEditorTransaction: Undo Move Elements
+[2024.08.18-16.15.46:267][506]Cmd: TRANSACTION UNDO
+[2024.08.18-16.15.46:268][506]LogEditorTransaction: Undo Move Elements
+[2024.08.18-16.16.52:608][269]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2024.08.18-16.17.24:284][685]Cmd: EDIT COPY
+[2024.08.18-16.17.24:611][711]Cmd: EDIT PASTE
+[2024.08.18-16.21.10:880][872]Cmd: TRANSACTION UNDO
+[2024.08.18-16.21.10:880][872]LogEditorTransaction: Undo Move Elements
+[2024.08.18-16.21.28:478][971]Cmd: TRANSACTION UNDO
+[2024.08.18-16.21.28:478][971]LogEditorTransaction: Undo Edit Z
+[2024.08.18-16.21.29:360][  3]Cmd: TRANSACTION UNDO
+[2024.08.18-16.21.29:360][  3]LogEditorTransaction: Undo Edit Z
+[2024.08.18-16.21.35:693][403]Cmd: TRANSACTION UNDO
+[2024.08.18-16.21.35:693][403]LogEditorTransaction: Undo Clicking on Elements
+[2024.08.18-16.21.36:567][430]Cmd: TRANSACTION UNDO
+[2024.08.18-16.21.36:567][430]LogEditorTransaction: Undo Select Surfaces
+[2024.08.18-16.21.37:882][509]Cmd: TRANSACTION UNDO
+[2024.08.18-16.21.37:882][509]LogEditorTransaction: Undo Edit X
+[2024.08.18-16.21.45:540][ 46]Cmd: TRANSACTION UNDO
+[2024.08.18-16.21.45:540][ 46]LogEditorTransaction: Undo Move Elements
+[2024.08.18-16.21.48:905][266]Cmd: TRANSACTION UNDO
+[2024.08.18-16.21.48:905][266]LogEditorTransaction: Undo Move Elements
+[2024.08.18-16.22.40:307][941]Cmd: TRANSACTION UNDO
+[2024.08.18-16.22.40:307][941]LogEditorTransaction: Undo Edit Z
+[2024.08.18-16.25.24:898][262]Cmd: EDIT COPY
+[2024.08.18-16.25.25:233][280]Cmd: EDIT PASTE
+[2024.08.18-16.25.58:498][665]Cmd: DELETE
+[2024.08.18-16.25.58:498][665]Cmd: ACTOR DELETE
+[2024.08.18-16.25.58:543][665]LogEditorActor: Deleted Actor: Brush
+[2024.08.18-16.25.58:592][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.08.18-16.25.58:648][665]LogEditorActor: Deleted 1 Actors (0.150 secs)
+[2024.08.18-16.26.03:461][ 23]Cmd: DELETE
+[2024.08.18-16.26.03:462][ 23]Cmd: ACTOR DELETE
+[2024.08.18-16.26.03:472][ 23]LogEditorActor: Deleted Actor: Brush
+[2024.08.18-16.26.03:481][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.08.18-16.26.03:536][ 23]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2024.08.18-16.26.10:626][558]Cmd: DELETE
+[2024.08.18-16.26.10:626][558]Cmd: ACTOR DELETE
+[2024.08.18-16.26.10:636][558]LogEditorActor: Deleted Actor: Brush
+[2024.08.18-16.26.10:645][558]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.08.18-16.26.10:699][558]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2024.08.18-16.26.16:680][ 21]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2024.08.18-16.26.35:905][399]Cmd: EDIT COPY
+[2024.08.18-16.26.36:212][423]Cmd: EDIT PASTE
+[2024.08.18-16.27.24:231][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.18-16.27.24:303][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level2" FILE="W:/Game Dev/GMTK24/SizeShift/Content/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.18-16.27.24:339][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.08.18-16.27.24:368][ 63]LogSavePackage: Moving output files for package: /Game/Level2
+[2024.08.18-16.27.24:369][ 63]LogSavePackage: Moving 'W:/Game Dev/GMTK24/SizeShift/Saved/Level2596084E94F95608E8C50AB9B4612B05E.tmp' to 'W:/Game Dev/GMTK24/SizeShift/Content/Level2.umap'
+[2024.08.18-16.27.24:376][ 63]LogFileHelpers: Saving map 'Level2' took 0.073
+[2024.08.18-16.27.24:677][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave took 445.699 ms (total: 8.12 sec)
+[2024.08.18-16.27.24:734][ 63]LogContentValidation: Display: Starting to validate 1 assets
+[2024.08.18-16.27.24:734][ 63]LogContentValidation: Enabled validators:
+[2024.08.18-16.27.24:734][ 63]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.08.18-16.27.24:734][ 63]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.08.18-16.27.24:734][ 63]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.08.18-16.27.24:734][ 63]LogContentValidation: Display: Validating asset /Game/Level2.Level2
+[2024.08.18-16.27.24:734][ 63]AssetCheck: /Game/Level2 Validating asset
