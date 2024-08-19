@@ -45,10 +45,22 @@
     <ClInclude Include="..\..\Source\SizeShift\CharacterShrinkComponent.h">
       <Filter>Source\SizeShift</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\SizeShift\EnemyTurretPawn.cpp">
+      <Filter>Source\SizeShift</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SizeShift\EnemyTurretPawn.h">
+      <Filter>Source\SizeShift</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\SizeShift\HealthComponent.cpp">
       <Filter>Source\SizeShift</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SizeShift\HealthComponent.h">
+      <Filter>Source\SizeShift</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SizeShift\ProjectileClass.cpp">
+      <Filter>Source\SizeShift</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SizeShift\ProjectileClass.h">
       <Filter>Source\SizeShift</Filter>
     </ClInclude>
     <None Include="..\..\Source\SizeShift\SizeShift.Build.cs">
