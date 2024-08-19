@@ -14,4 +14,14 @@ class SIZESHIFT_API ASizeShiftGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+public:
+	void ActorDied(AActor* DeadActor);
+
+protected:
+	virtual void BeginPlay() override;
+
+private:
+	class ASizeShiftPlayerCharacter* PlayerCharacter;
+
+	void HandleGameStart();
 };

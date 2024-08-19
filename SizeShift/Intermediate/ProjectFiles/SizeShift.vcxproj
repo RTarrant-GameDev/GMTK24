@@ -266,10 +266,18 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\SizeShift\CharacterShrinkComponent.h"/>
+    <ClCompile Include="..\..\Source\SizeShift\EnemyTurretPawn.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SizeShift\EnemyTurretPawn.h"/>
     <ClCompile Include="..\..\Source\SizeShift\HealthComponent.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\SizeShift\HealthComponent.h"/>
+    <ClCompile Include="..\..\Source\SizeShift\ProjectileClass.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SizeShift\ProjectileClass.h"/>
     <None Include="..\..\Source\SizeShift\SizeShift.Build.cs"/>
     <ClCompile Include="..\..\Source\SizeShift\SizeShift.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

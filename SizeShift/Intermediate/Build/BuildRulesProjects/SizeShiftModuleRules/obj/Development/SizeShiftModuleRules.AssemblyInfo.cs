@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SizeShiftModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+695a1a61f41ec49a2680514d7ff2e7ed9ebea160")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6691ebe0cb83449bdfeb215976117c17ba39c94e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SizeShiftModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SizeShiftModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

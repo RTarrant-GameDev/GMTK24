@@ -14,6 +14,9 @@ class SIZESHIFT_API ASizeShiftPlayerCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Animation", meta=(AllowPrivateAccess="true"))
+	class UAnimSequence *PlayerPunchAnim;
+
 public:
 	// Sets default values for this character's properties
 	ASizeShiftPlayerCharacter();
@@ -31,6 +34,12 @@ protected:
 	UPROPERTY(EditDefaultsOnly)
 	class UCharacterEnlargeComponent* EnlargeComponent;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
+	USceneComponent* ProjectileSpawnPoint;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Combat")
+	TSubclassOf<class AProjectileClass> ProjectileClass;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -40,6 +49,7 @@ public:
 
 	void Shrink();
 	void Enlarge();
+	void AttackStart();
 
 	void ResizeSetHealth(float ValueToSet);
 

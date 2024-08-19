@@ -2,6 +2,7 @@
 
 
 #include "SizeShiftPlayerCharacter.h"
+#include "ProjectileClass.h"
 
 // Sets default values
 ASizeShiftPlayerCharacter::ASizeShiftPlayerCharacter()
@@ -12,6 +13,9 @@ ASizeShiftPlayerCharacter::ASizeShiftPlayerCharacter()
 	ShrinkComponent = CreateDefaultSubobject<UCharacterShrinkComponent>(TEXT("ShrinkComponent"));
 	EnlargeComponent = CreateDefaultSubobject<UCharacterEnlargeComponent>(TEXT("EnlargeComponent"));
 	HealthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("HealthComponent"));
+
+	ProjectileSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Projectile Spawn Point"));
+	ProjectileSpawnPoint->SetupAttachment(RootComponent);
 }
 
 // Called when the game starts or when spawned
@@ -20,7 +24,6 @@ void ASizeShiftPlayerCharacter::BeginPlay()
 	Super::BeginPlay();
 	
 	HealthComponent->SetMaxHealth(MaxHealth);
-	HealthComponent->CurrHealth = MaxHealth;
 }
 
 // Called every frame
@@ -45,8 +48,12 @@ void ASizeShiftPlayerCharacter::SetupPlayerInputComponent(UInputComponent* Playe
 
 	//Actions
 	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Released, this, &ACharacter::StopJumping);
+
 	PlayerInputComponent->BindAction(TEXT("Shrink"), EInputEvent::IE_Pressed, this, &ASizeShiftPlayerCharacter::Shrink);
 	PlayerInputComponent->BindAction(TEXT("Enlarge"), EInputEvent::IE_Pressed, this, &ASizeShiftPlayerCharacter::Enlarge);
+
+	PlayerInputComponent->BindAction(TEXT("Attack"), EInputEvent::IE_Pressed, this, &ASizeShiftPlayerCharacter::AttackStart);
 }
 
 void ASizeShiftPlayerCharacter::Shrink()
@@ -57,6 +64,15 @@ void ASizeShiftPlayerCharacter::Shrink()
 void ASizeShiftPlayerCharacter::Enlarge()
 {
 	EnlargeComponent->EnlargeCharacter();
+}
+
+void ASizeShiftPlayerCharacter::AttackStart()
+{
+	FVector ProjectileSpawnPointLocation = ProjectileSpawnPoint->GetComponentLocation();
+	FRotator ProjectileSpawnPointRotation = ProjectileSpawnPoint->GetComponentRotation();
+
+	AProjectileClass* Projectile = GetWorld()->SpawnActor<AProjectileClass>(ProjectileClass, ProjectileSpawnPointLocation, ProjectileSpawnPointRotation);
+	Projectile->SetOwner(this);
 }
 
 void ASizeShiftPlayerCharacter::ResizeSetHealth(float ValueToSet)

@@ -32,5 +32,9 @@ public:
 
 	void SetMaxHealth(float ValueToSet);
 
-	void SetHealth(float ValueToSet);
+private:
+	UFUNCTION()
+	void DamageTaken(AActor* DamagedActor, float Damage, const UDamageType* DamageType, class AController* Instigator, AActor* DamageCauser);
+
+	class ASizeShiftGameModeBase* SizeShiftGameMode;
 };
