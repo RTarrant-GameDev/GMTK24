@@ -20,7 +20,6 @@ void ASizeShiftPlayerCharacter::BeginPlay()
 	Super::BeginPlay();
 	
 	HealthComponent->SetMaxHealth(MaxHealth);
-	HealthComponent->CurrHealth = MaxHealth;
 }
 
 // Called every frame

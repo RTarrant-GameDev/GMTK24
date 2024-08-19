@@ -2,6 +2,8 @@
 
 
 #include "HealthComponent.h"
+#include <Kismet/GameplayStatics.h>
+#include "SizeShiftGameModeBase.h"
 
 // Sets default values for this component's properties
 UHealthComponent::UHealthComponent()
@@ -19,6 +21,8 @@ void UHealthComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
+	GetOwner()->OnTakeAnyDamage.AddDynamic(this, &UHealthComponent::DamageTaken);
+	SizeShiftGameMode = Cast<ASizeShiftGameModeBase>(UGameplayStatics::GetGameMode(this));
 }
 
 
@@ -33,9 +37,18 @@ void UHealthComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 void UHealthComponent::SetMaxHealth(float ValueToSet)
 {
 	MaxHealth = ValueToSet;
+	CurrHealth = MaxHealth;
 }
 
-void UHealthComponent::SetHealth(float ValueToSet)
+
+void UHealthComponent::DamageTaken(AActor* DamagedActor, float Damage, const UDamageType* DamageType, AController* Instigator, AActor* DamageCauser)
 {
-	CurrHealth += ValueToSet;
+	if (Damage <= 0.f) return;
+
+	CurrHealth -= Damage;
+
+	if (CurrHealth <= 0.f && SizeShiftGameMode)
+	{
+		SizeShiftGameMode->ActorDied(DamagedActor);
+	}
 }

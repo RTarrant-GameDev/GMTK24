@@ -35,7 +35,7 @@ void AEnemyTurretPawn::BeginPlay()
 
 	PlayerCharacter = Cast<ASizeShiftPlayerCharacter>(UGameplayStatics::GetPlayerPawn(this, 0));
 
-	HealthComponent->SetHealth(HealthComponent->MaxHealth);
+	HealthComponent->SetMaxHealth(5.f);
 
 	GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &AEnemyTurretPawn::CheckFireCondition, FireRate, true);
 }

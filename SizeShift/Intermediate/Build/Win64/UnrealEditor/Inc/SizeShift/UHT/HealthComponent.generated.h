@@ -9,10 +9,17 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class AController;
+class UDamageType;
 #ifdef SIZESHIFT_HealthComponent_generated_h
 #error "HealthComponent.generated.h already included, missing '#pragma once' in HealthComponent.h"
 #endif
 #define SIZESHIFT_HealthComponent_generated_h
+
+#define FID_SizeShift_Source_SizeShift_HealthComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execDamageTaken);
+
 
 #define FID_SizeShift_Source_SizeShift_HealthComponent_h_13_INCLASS_NO_PURE_DECLS \
 private: \
@@ -39,6 +46,7 @@ public: \
 #define FID_SizeShift_Source_SizeShift_HealthComponent_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_SizeShift_Source_SizeShift_HealthComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_SizeShift_Source_SizeShift_HealthComponent_h_13_INCLASS_NO_PURE_DECLS \
 	FID_SizeShift_Source_SizeShift_HealthComponent_h_13_ENHANCED_CONSTRUCTORS \
 private: \
