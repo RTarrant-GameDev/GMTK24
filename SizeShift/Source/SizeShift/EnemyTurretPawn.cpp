@@ -28,6 +28,11 @@ AEnemyTurretPawn::AEnemyTurretPawn()
 	HealthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("Health Component"));
 }
 
+void AEnemyTurretPawn::HandleDestruction()
+{
+	Destroy();
+}
+
 // Called when the game starts or when spawned
 void AEnemyTurretPawn::BeginPlay()
 {
