@@ -1086,3 +1086,93 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.09.23-19.42.12:070][107]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2024.09.23-19.42.12:070][107]LogContentValidation: Display: Validating asset /Game/Level1.Level1
 [2024.09.23-19.42.12:071][107]AssetCheck: /Game/Level1 Validating asset
+[2024.09.23-19.45.17:698][652]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.09.23-19.45.17:763][652]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.09.23-19.45.17:799][652]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2024.09.23-19.45.17:811][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011756s)
+[2024.09.23-19.45.17:811][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.011800s)
+[2024.09.23-19.45.17:817][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.09.23-19.45.17:818][652]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.09.23-19.45.17:819][652]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2024.09.23-19.45.18:064][652]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.09.23-19.45.18:064][652]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.09.23-19.45.18:064][652]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.09.23-19.45.18:064][652]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.09.23-19.45.18:064][652]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.09.23-19.45.18:064][652]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.09.23-19.45.18:064][652]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.09.23-19.45.18:064][652]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.09.23-19.45.18:064][652]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.09.23-19.45.18:064][652]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.09.23-19.45.18:064][652]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.09.23-19.45.18:064][652]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.09.23-19.45.18:066][652]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.09.23-19.45.18:082][652]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2024.09.23-19.45.18:082][652]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.09.23-19.45.18:082][652]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.09.23-19.45.18:082][652]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.09.23-19.45.18:083][652]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.09.23-19.45.18:083][652]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.09.23-19.45.18:085][652]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.09.23-19.45.18:085][652]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.09.23-19.45.18:085][652]LogInit: FAudioDevice initialized with ID 3.
+[2024.09.23-19.45.18:085][652]LogAudio: Display: Audio Device (ID: 3) registered with world 'Level1'.
+[2024.09.23-19.45.18:085][652]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.09.23-19.45.18:088][652]LogLoad: Game class is 'BP_SizeShiftGameModeBase_C'
+[2024.09.23-19.45.18:090][652]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2024.09.23-20.45.18
+[2024.09.23-19.45.18:090][652]LogWorld: Bringing up level for play took: 0.001615
+[2024.09.23-19.45.18:092][652]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2024.09.23-19.45.18:390][652]PIE: Server logged in
+[2024.09.23-19.45.18:391][652]PIE: Play in editor total start time 0.687 seconds.
+[2024.09.23-19.45.22:533][885]LogCharacterMovement: BP_SizeShiftPlayerCharacter_C_0 is stuck and failed to move! Velocity: X=544.15 Y=252.78 Z=0.00 Location: X=3640.87 Y=-1287.16 Z=2848.44 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:4.562 Actor:Invalid Component:ModelComponent_211 BoneName:None (0 other events since notify)
+[2024.09.23-19.45.24:905][ 88]LogCharacterMovement: BP_SizeShiftPlayerCharacter_C_0 is stuck and failed to move! Velocity: X=27.67 Y=51.06 Z=0.00 Location: X=4117.37 Y=-492.45 Z=2919.12 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:6.657 Actor:Invalid Component:ModelComponent_211 BoneName:None (1 other events since notify)
+[2024.09.23-19.45.26:898][263]LogCharacterMovement: BP_SizeShiftPlayerCharacter_C_0 is stuck and failed to move! Velocity: X=25.87 Y=-35.61 Z=0.00 Location: X=4117.37 Y=-522.72 Z=2919.13 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:6.657 Actor:Invalid Component:ModelComponent_211 BoneName:None (1 other events since notify)
+[2024.09.23-19.45.32:473][719]LogCharacterMovement: BP_SizeShiftPlayerCharacter_C_0 is stuck and failed to move! Velocity: X=-449.65 Y=397.26 Z=0.00 Location: X=4027.13 Y=574.87 Z=2916.15 Normal: X=-0.47 Y=-0.88 Z=0.00 PenetrationDepth:9.949 Actor:Invalid Component:ModelComponent_215 BoneName:None (2 other events since notify)
+[2024.09.23-19.45.33:483][799]LogCharacterMovement: BP_SizeShiftPlayerCharacter_C_0 is stuck and failed to move! Velocity: X=-270.33 Y=535.65 Z=0.00 Location: X=4052.63 Y=549.38 Z=2952.13 Normal: X=-0.47 Y=-0.88 Z=0.00 PenetrationDepth:24.949 Actor:Invalid Component:ModelComponent_215 BoneName:None (77 other events since notify)
+[2024.09.23-19.45.39:614][289]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/MainMenuLevel"
+[2024.09.23-19.45.39:614][289]LogNet: Browse: /Game/MainMenuLevel
+[2024.09.23-19.45.39:614][289]LogLoad: LoadMap: /Game/MainMenuLevel
+[2024.09.23-19.45.39:614][289]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2024.09.23-19.45.39:616][289]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.09.23-19.45.39:616][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.23-19.45.39:616][289]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.09.23-19.45.39:616][289]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.09.23-19.45.39:622][289]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.09.23-19.45.39:626][289]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.09.23-19.45.39:641][289]LogAudio: Display: Audio Device (ID: 3) registered with world 'MainMenuLevel'.
+[2024.09.23-19.45.39:642][289]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.09.23-19.45.39:643][289]LogPlayLevel: PIE: World Init took: (0.001117s)
+[2024.09.23-19.45.39:643][289]LogLoad: Game class is 'BP_MainMenuGameMode_C'
+[2024.09.23-19.45.39:643][289]LogWorld: Bringing World /Game/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 0) at 2024.09.23-20.45.39
+[2024.09.23-19.45.39:644][289]LogWorld: Bringing up level for play took: 0.000848
+[2024.09.23-19.45.39:645][289]LogLoad: Took 0.030947 seconds to LoadMap(/Game/MainMenuLevel)
+[2024.09.23-19.45.39:645][289]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/MainMenuLevel
+[2024.09.23-19.45.41:746][425]Cmd: quit
+[2024.09.23-19.45.41:747][425]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.23-19.45.41:762][425]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMenuLevel
+[2024.09.23-19.45.41:762][425]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2024.09.23-19.45.41:762][425]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.23-19.45.41:762][425]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.09.23-19.45.41:763][425]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.09.23-19.45.41:764][425]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.09.23-19.45.41:768][425]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.23-19.45.41:774][425]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.23-19.45.41:774][425]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.09.23-19.45.41:774][425]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.09.23-19.45.41:776][425]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.09.23-19.45.41:781][425]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.09.23-19.45.42:162][426]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2024.09.23-19.45.42:746][433]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.23-19.45.42:836][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="W:/Game Dev/GMTK24/SizeShift/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.09.23-19.45.42:869][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.09.23-19.45.42:890][433]LogSavePackage: Moving output files for package: /Game/Level1
+[2024.09.23-19.45.42:890][433]LogSavePackage: Moving 'W:/Game Dev/GMTK24/SizeShift/Saved/Level17A316686461425E559199BB1AFF1D816.tmp' to 'W:/Game Dev/GMTK24/SizeShift/Content/Level1.umap'
+[2024.09.23-19.45.42:898][433]LogFileHelpers: Saving map 'Level1' took 0.063
+[2024.09.23-19.45.42:925][433]LogFileHelpers: InternalPromptForCheckoutAndSave took 179.538 ms (total: 495.888 ms)
+[2024.09.23-19.45.42:986][433]LogContentValidation: Display: Starting to validate 1 assets
+[2024.09.23-19.45.42:987][433]LogContentValidation: Enabled validators:
+[2024.09.23-19.45.42:987][433]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.09.23-19.45.42:987][433]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.09.23-19.45.42:987][433]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.09.23-19.45.42:987][433]LogContentValidation: Display: Validating asset /Game/Level1.Level1
+[2024.09.23-19.45.42:987][433]AssetCheck: /Game/Level1 Validating asset
