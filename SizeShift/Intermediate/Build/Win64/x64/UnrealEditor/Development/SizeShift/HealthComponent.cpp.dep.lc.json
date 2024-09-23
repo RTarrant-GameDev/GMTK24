@@ -1,0 +1,30 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "w:\\game dev\\gmtk24\\sizeshift\\source\\sizeshift\\healthcomponent.cpp",
+        "ProvidedModule": "",
+        "PCH": "w:\\game dev\\gmtk24\\sizeshift\\intermediate\\build\\win64\\x64\\sizeshifteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "w:\\game dev\\gmtk24\\sizeshift\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\sizeshift\\definitions.sizeshift.h",
+            "w:\\game dev\\gmtk24\\sizeshift\\source\\sizeshift\\healthcomponent.h",
+            "w:\\game dev\\gmtk24\\sizeshift\\intermediate\\build\\win64\\unrealeditor\\inc\\sizeshift\\uht\\healthcomponent.generated.h",
+            "d:\\epic games\\engine versions\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystatics.h",
+            "d:\\epic games\\engine versions\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "d:\\epic games\\engine versions\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "d:\\epic games\\engine versions\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h",
+            "d:\\epic games\\engine versions\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\sound\\dialoguetypes.h",
+            "d:\\epic games\\engine versions\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\dialoguetypes.generated.h",
+            "d:\\epic games\\engine versions\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
+            "d:\\epic games\\engine versions\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
+            "d:\\epic games\\engine versions\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h",
+            "w:\\game dev\\gmtk24\\sizeshift\\source\\sizeshift\\sizeshiftgamemodebase.h",
+            "d:\\epic games\\engine versions\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\epic games\\engine versions\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\epic games\\engine versions\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "d:\\epic games\\engine versions\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "w:\\game dev\\gmtk24\\sizeshift\\intermediate\\build\\win64\\unrealeditor\\inc\\sizeshift\\uht\\sizeshiftgamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
