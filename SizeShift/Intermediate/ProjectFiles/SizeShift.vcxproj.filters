@@ -84,5 +84,11 @@
     <ClInclude Include="..\..\Source\SizeShift\SizeShiftPlayerCharacter.h">
       <Filter>Source\SizeShift</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\SizeShift\SizeShiftPlayerController.cpp">
+      <Filter>Source\SizeShift</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SizeShift\SizeShiftPlayerController.h">
+      <Filter>Source\SizeShift</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
